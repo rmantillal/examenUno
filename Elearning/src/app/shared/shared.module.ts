@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListadoCursosComponent } from '../modules/cursos/listado-cursos/listado-cursos.component';
 import { CursoComponent } from './curso/curso.component';
 
 
-
 @NgModule({
-  declarations: [CursoComponent],
+  declarations: [],
   imports: [
     CommonModule
   ],
-  exports: [ListadoCursosComponent]
+  exports: [CursoComponent]
 })
 export class SharedModule { }
